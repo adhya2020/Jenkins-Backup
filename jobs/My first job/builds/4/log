@@ -1,0 +1,29 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/My first job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/adhya2020/myprincess.git
+ > git init /var/lib/jenkins/workspace/My first job # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/myprincess.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/myprincess.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/adhya2020/myprincess.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f5a13ea1cd66aecd1f749c2190b8bd67fa632227 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f5a13ea1cd66aecd1f749c2190b8bd67fa632227 # timeout=10
+Commit message: "pushing scripts"
+First time build. Skipping changelog.
+[My first job] $ /bin/sh -xe /tmp/jenkins7558443940215777753.sh
++ echo list of files and folder
+list of files and folder
++ ls /home/ubuntu
+anand
+hello-world-war
+naveen
+Finished: SUCCESS

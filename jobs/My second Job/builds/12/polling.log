@@ -1,0 +1,12 @@
+Started on Jul 8, 2022, 11:48:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 555c780fa9093d67471567ac352db96a0166846b (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/adhya2020/my-2nd-scripts.git # timeout=10
+Found 1 remote heads on https://github.com/adhya2020/my-2nd-scripts.git
+[poll] Latest remote head revision on refs/heads/master is: fc9fcf83eadbd80efca4886f763d89dda2744b87
+Done. Took 0.29 sec
+Changes found

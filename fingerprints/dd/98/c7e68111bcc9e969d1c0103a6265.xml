@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-07-09 03:57:45.726 UTC</timestamp>
+  <md5sum>dd98c7e68111bcc9e969d1c0103a6265</md5sum>
+  <fileName>Credential id=3cf881d7-555f-491b-a7fe-cd2b37d5e798 name=jenkins/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1139.veb_9579fca_33b_">
+      <timestamp>1657527394840</timestamp>
+      <itemFullName>pipeline with git</itemFullName>
+      <timestamp0>1657527394840</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1139.veb_9579fca_33b_">
+      <timestamp>1657695028719</timestamp>
+      <nodeName>maven node</nodeName>
+      <timestamp0>1657694788720</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1139.veb_9579fca_33b_">
+      <timestamp>1657695028721</timestamp>
+      <nodeName>tomcat node</nodeName>
+      <timestamp0>1657694788714</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

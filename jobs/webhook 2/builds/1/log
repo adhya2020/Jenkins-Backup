@@ -1,0 +1,22 @@
+Started by GitHub push by adhya2020
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/webhook 2
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/adhya2020/sumeet.git
+ > git init /var/lib/jenkins/workspace/webhook 2 # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/sumeet.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/sumeet.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/adhya2020/sumeet.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6bff17fc5af9f1afde4c1a9b59da505764d5e274 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6bff17fc5af9f1afde4c1a9b59da505764d5e274 # timeout=10
+Commit message: "Update characters.sh"
+First time build. Skipping changelog.
+Finished: SUCCESS

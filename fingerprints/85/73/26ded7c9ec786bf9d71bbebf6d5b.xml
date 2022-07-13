@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-07-13 03:49:26.678 UTC</timestamp>
+  <md5sum>857326ded7c9ec786bf9d71bbebf6d5b</md5sum>
+  <fileName>Credential id=5ec4ff30-f906-432c-9d19-09712efe1922 name=adhya2020/******</fileName>
+  <usages>
+    <entry>
+      <string>multibranch-pipeline2/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>multibranch-pipeline2/test2</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

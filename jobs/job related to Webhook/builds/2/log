@@ -1,0 +1,19 @@
+Started by GitHub push by adhya2020
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job related to Webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/job related to Webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/my-2nd-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/my-2nd-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/my-2nd-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4854f11afec896f75940114326ac1f76a80e7633 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4854f11afec896f75940114326ac1f76a80e7633 # timeout=10
+Commit message: "Update factorial.sh"
+ > git rev-list --no-walk 85e20a15c7883d439421c6374e8d3d76049536ef # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,47 @@
+Started by an SCM change
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/My second Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/My second Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/my-2nd-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/my-2nd-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/my-2nd-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fc9fcf83eadbd80efca4886f763d89dda2744b87 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fc9fcf83eadbd80efca4886f763d89dda2744b87 # timeout=10
+Commit message: "Update characters.sh"
+ > git rev-list --no-walk 555c780fa9093d67471567ac352db96a0166846b # timeout=10
+[My second Job] $ /bin/sh -xe /tmp/jenkins11717014883249489176.sh
++ echo my all scripts
+my all scripts
++ ls
+characters.sh
+crontab.sh
+diskusage.sh
+factorial.sh
+factorialarray.sh
+forrevers.sh
+gitfolder2
+hotelmenu.sh
+moniterservice.sh
+multipleservice.sh
+nameline.sh
+namewithline
+oldbuild.sh
+outputfile2
+particularline.sh
+pattername.sh
+rename.sh
+reverse.sh
+reversefile
+rollnumber
+rollnumber.sh
+sum.sh
+sumeetcalculator.sh
+switchdays.sh
+Finished: SUCCESS

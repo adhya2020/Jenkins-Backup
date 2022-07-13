@@ -1,0 +1,42 @@
+Started by user [8mha:////4PU/1s9gkjgMZZbfgCUTzJpQZQMeUjiYrWsu8Nt9hwWXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94tLc1NQSAMHZ8IjBAAAA[0msumeet kulkarni
+[Wed Jul 13 04:02:20 UTC 2022] Starting branch indexing...
+[8mha:////4K55vO+GY6+WdKORmGeV1fyMLTMjPcQnzC3dvhEK3C7VAAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTj1x3XZwAAPrv1544AAAA=[0mConnecting to https://api.github.com with no credentials, anonymous access
+Examining [8mha:////4DuRvYCRs563VKKyCpdY533ZSl91FEKeB74f1AInK4XAAAAArB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGHQySgpKSi20tdPzyzJKE0C6srVT0zJqEw0MjAy0M9IzcnJ1y3PL8pJ0S1PLAIATVKIxLEAAAA=[0madhya2020/hello-world-war
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4CrOGV5YULBW6fC+k/3T+MtA4Vq9oKjsnuAMxSCgwkM1AAAAtR+LCAAAAAAAAP9djDEOgkAQRUeMHMDSeAVYYmGMhspGE2LjCVaZsOiyu5kdBK7hNbTxEB7HO4ih8zX/Nf89PzDxBHNV596a+GyNtxrjXeeQdGmuB8u4TB+v9O7eAQR7CDWaglUG45o0wzS7yJsUWppCHJlKU2xagtlfbjvsLwYDowCgdb2EDCvF7PxaiKJkVZ/6VyVkrjq5SBaJUKi1jRpLOo8aSYIJUVTSM9IXtW/Fyb0AAAA=[0mmaster
+      ‘jenkinfile’ found
+    Met criteria
+No changes detected: master (still at 1f1e00012818100582e772b09043af14866d8049)
+
+    Checking branch [8mha:////4NDv8FjOm/6GgTwgevS2SRUSlkJg/rVajBZjH2hd11LEAAAAth+LCAAAAAAAAP9djDEOgjAUhp8YdXc0XgGKDCZqmFw0IS6eoELTos+2aR8C1/AaungIj+MdxLD5Lf+3/N/zAyPvYK6qwhsd5UZ7gyLatVY4LPXlYEgs08crvdt3AMEexii0JJXBsHJIMM3O/MYZci3ZkVyp5aZxMPvLbfv9xaBnEAA0tpMJwUoRWb9mTJakqlP3ujJeqJYncRIzJRBNWBuHRVhzx8gJwSynXIWLL4ezCEO+AAAA[0mpatch-1
+      ‘jenkinfile’ not found (but found ‘Jenkinfile’, search is case sensitive)
+    Does not meet criteria
+
+    Checking branch [8mha:////4CZXiy2+QX+2ghy8FKjowLd0LUzxKbT8zNsg5W34MdbrAAAAux+LCAAAAAAAAP9djrENwjAURD9B0NFQIlZIHKWgAEUUNCBFNExgyJdtMLZl/5BkDdaAhiEYhx0ISsc1d817uucHRsHDXFZlsCY5WROsxmTbOvRamcveEi7yxyu/u3cE0Q7GGo0gWcCw8ppgWpz5jTPNjWAH8sqIVeNh9qfb9P2TQZ9BBNC4bkwI1pLIhSVjQpGsjh11ZbyULc/SLGUStbZxbb0u45p7Rh6ROeWwu4cxYaAvCFHBsMQAAAA=[0mpipeline-test
+      ‘jenkinfile’ found
+    Met criteria
+No changes detected: pipeline-test (still at 1f1e00012818100582e772b09043af14866d8049)
+
+    Checking branch [8mha:////4K/BPZlTL5GBZhjouE4T2gTSJh9oQOTLxOZCWzkEar6BAAAAtB+LCAAAAAAAAP9djLENwjAQRY9EMAAlYoXkokhQgFLRgBTRMIEhVhwwtnW+kIQxWAMahmAcdiCIjtf81/z3eMPQE0xVXXhr4oM13moZrzsnSVfmtLUs59n9md3cK4BgAyMtTckqh7AmzTDOj+IiUAtT4o6pMuWyJZj85Va//cbgxyAAaF0vIcNMMTu/QCwrVvW+f51RFKoTaZImqKTWNmos6SJqBCGTlNh21w8uPYq3ugAAAA==[0mxyz
+      ‘jenkinfile’ found
+    Met criteria
+Scheduled build for branch: xyz
+
+  4 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining adhya2020/hello-world-war
+
+[Wed Jul 13 04:02:22 UTC 2022] Finished branch indexing. Indexing took 2 sec
+Evaluating orphaned items in MultiBranch-pipeline
+Will remove test2
+Finished: SUCCESS

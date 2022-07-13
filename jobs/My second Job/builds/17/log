@@ -1,0 +1,50 @@
+Started by user [8mha:////4PU/1s9gkjgMZZbfgCUTzJpQZQMeUjiYrWsu8Nt9hwWXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94tLc1NQSAMHZ8IjBAAAA[0msumeet kulkarni
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/My second Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/My second Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/my-2nd-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/my-2nd-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/my-2nd-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7bfae3bb945c0026a1a4d871935dda9ad662bbe4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7bfae3bb945c0026a1a4d871935dda9ad662bbe4 # timeout=10
+Commit message: "Update characters.sh"
+ > git rev-list --no-walk 7bfae3bb945c0026a1a4d871935dda9ad662bbe4 # timeout=10
+[My second Job] $ /bin/sh -xe /tmp/jenkins4805910104392409669.sh
++ echo my all scripts
+my all scripts
++ ls
+characters.sh
+crontab.sh
+diskusage.sh
+factorial.sh
+factorialarray.sh
+forrevers.sh
+gitfolder2
+hotelmenu.sh
+moniterservice.sh
+multipleservice.sh
+nameline.sh
+namewithline
+oldbuild.sh
+outputfile2
+particularline.sh
+pattername.sh
+rename.sh
+reverse.sh
+reversefile
+rollnumber
+rollnumber.sh
+sum.sh
+sumeetcalculator.sh
+switchdays.sh
++ exit 10
+Build step 'Execute shell' changed build result to UNSTABLE
+Triggering a new build of [8mha:////4BajgQUW570/8a+nTdp1Yr0UWv+RcqmUyqBxXIPIp3A2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2U1Nx8I30A83kNT8AAAAA=[0mdemo2
+Finished: UNSTABLE

@@ -1,0 +1,9 @@
+commit 59572762b95465f8876b2b9176a98b9668960001
+tree b674ceb818cb38f3076f38f6cca0b6a897ff2c34
+parent a8ed2060d3b1c40a57a48a75e942db7ae78331ac
+author adhya2020 <97822101+adhya2020@users.noreply.github.com> 2022-07-07 17:00:15 +0530
+committer GitHub <noreply@github.com> 2022-07-07 17:00:15 +0530
+
+    Update characters.sh
+
+:100755 100755 b35865b042bdc9623d29eac92ada2d053119b3ee 95823c05608678d2bd6cb0e12c677b4aeb5d50bc M	characters.sh

@@ -1,0 +1,29 @@
+Started by user [8mha:////4PU/1s9gkjgMZZbfgCUTzJpQZQMeUjiYrWsu8Nt9hwWXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94tLc1NQSAMHZ8IjBAAAA[0msumeet kulkarni
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/My first job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/My first job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/myprincess.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/myprincess.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/myprincess.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 737e4aad85c1e88fda97c0ddedbdb0a20dc9ae89 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 737e4aad85c1e88fda97c0ddedbdb0a20dc9ae89 # timeout=10
+Commit message: "Update goa1"
+ > git rev-list --no-walk 737e4aad85c1e88fda97c0ddedbdb0a20dc9ae89 # timeout=10
+[My first job] $ /bin/sh -xe /tmp/jenkins3483901595478553514.sh
++ echo list of files and folder
+list of files and folder
++ ls /home/ubuntu
+anand
+hello-world-war
+naveen
++ exit 10
+Build step 'Execute shell' changed build result to UNSTABLE
+Triggering a new build of [8mha:////4BLehx3jS9DjMxYYB4VtZV5rfTctebtRs5DOhB10n1nHAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2U1Nz8tMycVH0AoyXZicMAAAA=[0mdemofile
+Finished: UNSTABLE

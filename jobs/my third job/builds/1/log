@@ -1,0 +1,30 @@
+Started by user [8mha:////4PU/1s9gkjgMZZbfgCUTzJpQZQMeUjiYrWsu8Nt9hwWXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94tLc1NQSAMHZ8IjBAAAA[0msumeet kulkarni
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my third job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/adhya2020/assignment.git
+ > git init /var/lib/jenkins/workspace/my third job # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/adhya2020/assignment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 956f0a6026ac5e4cad37aadf0605bb6942465b10 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 956f0a6026ac5e4cad37aadf0605bb6942465b10 # timeout=10
+Commit message: "Merge pull request #1 from adhya2020/branch1"
+First time build. Skipping changelog.
+[my third job] $ /bin/sh -xe /tmp/jenkins1580767618373390052.sh
++ echo my Assignments
+my Assignments
++ ls
+filex
+filey
+filez
+sumeet
+Finished: SUCCESS

@@ -1,0 +1,42 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/My second Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/My second Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/sumeet.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/sumeet.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/sumeet.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6bff17fc5af9f1afde4c1a9b59da505764d5e274 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6bff17fc5af9f1afde4c1a9b59da505764d5e274 # timeout=10
+Commit message: "Update characters.sh"
+ > git rev-list --no-walk 59572762b95465f8876b2b9176a98b9668960001 # timeout=10
+[My second Job] $ /bin/sh -xe /tmp/jenkins14212890868558215926.sh
++ echo my all scripts
+my all scripts
++ ls
+characters.sh
+crontab.sh
+factorial.sh
+factorialarray.sh
+forrevers.sh
+hotelmenu.sh
+multipleservice.sh
+nameline.sh
+oldbuild.sh
+particularline.sh
+pattername.sh
+rename.sh
+reverse.sh
+rollnumber.sh
+sum.sh
+sumeetcalculator.sh
+sumeetk
+summtk
+switchdays.sh
+Finished: SUCCESS

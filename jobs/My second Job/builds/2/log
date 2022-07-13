@@ -1,0 +1,26 @@
+Started by user [8mha:////4PU/1s9gkjgMZZbfgCUTzJpQZQMeUjiYrWsu8Nt9hwWXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94tLc1NQSAMHZ8IjBAAAA[0msumeet kulkarni
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/My second Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/My second Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/adhya2020/my-2nd-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/adhya2020/my-2nd-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/adhya2020/my-2nd-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2606e34bb5297fad7d3974b4b876e4b7bfef7a6b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2606e34bb5297fad7d3974b4b876e4b7bfef7a6b # timeout=10
+Commit message: "My second Script"
+ > git rev-list --no-walk 2606e34bb5297fad7d3974b4b876e4b7bfef7a6b # timeout=10
+[My second Job] $ /bin/sh -xe /tmp/jenkins11465145762180322841.sh
++ echo  my all scripts 
+ my all scripts 
++ ls /home/ubuntu
+anand
+hello-world-war
+naveen
+Finished: SUCCESS
